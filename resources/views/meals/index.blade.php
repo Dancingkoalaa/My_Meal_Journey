@@ -1,7 +1,4 @@
-<!DOCTYPE html>
-<html lang='en'>
-  <head>
-    <meta charset='utf-8' />
+@extends('layouts.app')
     <script src='https://cdn.jsdelivr.net/npm/fullcalendar@6.1.7/index.global.min.js'></script>
     <script>
 
@@ -29,7 +26,7 @@
 
     </script>
   </head>
-  <body>
+  @section('content')
     <div id='calendar'></div>
-  </body>
+  @endsection
 </html>
