@@ -1,6 +1,5 @@
-<!DOCTYPE html>
-<html lang='en'>
-  <head>
+
+
     <meta charset='utf-8' />
     <script src='https://cdn.jsdelivr.net/npm/fullcalendar@6.1.7/index.global.min.js'></script>
     <script>
@@ -29,7 +28,7 @@
 
     </script>
   </head>
-  <body>
-    <div id='calendar'></div>
-  </body>
+  @section('content')
+  <div id='calendar'></div>
+  @endsection
 </html>
