@@ -17,6 +17,7 @@ return new class extends Migration
             $table->string('name');
             $table->text('description')->nullable();
             $table->date('meal_date');
+            $table->unsignedBigInteger('author');
             $table->timestamps();
 
             $table->foreign('author')->references('id')->on('users');
