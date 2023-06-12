@@ -9,7 +9,7 @@ class FinishedMeal extends Model
 {
     use HasFactory;
 
-    protected $fillable = ['name', 'description', 'meal_date'];
+    protected $fillable = ['name', 'description', 'meal_date', 'meal_time'];
     
     public function user(): BelongsTo
     {

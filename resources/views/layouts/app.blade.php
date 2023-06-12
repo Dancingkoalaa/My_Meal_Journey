@@ -28,7 +28,7 @@
                         </li>
                     @auth
                         <li class="nav-item">
-                            <a class="nav-link text-white" href="meals">Meals</a>
+                            <a class="nav-link text-white" href="/meals">Meals</a>
                         </li>
                     @endauth
                     </ul>
